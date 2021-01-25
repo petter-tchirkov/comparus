@@ -51,7 +51,7 @@ export class GameService {
     }
     setTimeout(() => {
       this._finishGame();
-    }, 1000)
+    }, 10000)
   }
 
   public pause() {
