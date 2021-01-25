@@ -1,0 +1,8 @@
+<div
+  class='cell'
+  [class.active]='data?.isActive'
+  [class.missed]='data?.isMissed'
+  [class.caught]='data?.isCaught'
+  (click)='touch.emit()'
+>
+</div>
